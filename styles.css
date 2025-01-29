@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%) ;
+}
+
+
+
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+}
+
+.outBox{
+    padding: 100px;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    height: 100%;
+    margin: 0 auto;
+
+
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; 
+}
+
+.profile h1{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+.profile h4{
+    color:hsl(75, 94%, 57%);
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.profile p{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 40px 0px 10px 0px;
+    font-size: 14px;
+}
+
+.mainContainerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+}
+
+.stylesButton button{
+      width: 300px;
+      height: 50px;
+      border-radius: 10px;
+      color: hsl(0, 0%, 100%);
+      background-color: hsl(0, 0%, 20%);
+      border-color: transparent;
+      font-family: "Inter", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      
+}
+
